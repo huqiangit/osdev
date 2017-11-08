@@ -1,0 +1,9 @@
+.phony: all
+
+BOOT_DIR= ./boot
+OBJ_DIR= ./objs/boot
+
+
+all:
+	nasm -f bin boot.s -o boot 
+
